@@ -6,7 +6,7 @@ import java.util.ArrayList;
 * Advent of Code 2020 - Puzzle 1
 *
 * Small little program that compares the values in a text file to
-* find two values that equal 2020. Then print the product of those two numbers.
+* find two values that equal 2020. Then prints the product of the numbers.
 *
 * @author AyameU
 * @version 1.0
@@ -43,7 +43,7 @@ public class Puzzle1 {
                 }
             }
 
-            // Terminates the outer break if the compared values equal 2020.
+            // Terminates the outer loop if the compared values equal 2020.
             if(is2020) {
                 break;
             }
